@@ -1,31 +1,32 @@
+import { Link } from "gatsby"
 import  React from "react"
 import styled from "styled-components"
-import Dick from '../../images/dick.png'
-
-
+import LogoWithName from "../molecules/LogoWithName"
+import Navigation from "./Navigation"
+import NavigationBar from "./NavigationBar"
 
 const StyledHeader = styled.header`
-display:flex;
-flex-direction:column;
-align-items:center;
+    position: relative;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
     width:100%;
     height:100%;
 
-    
 `
 
-const Logo = styled.img`
-    width:200px;
-    
-`
+const Header = ({location}) => {
 
-const Header = ({children}) => {
   return (
     <StyledHeader>
-        <Logo src={Dick}  />
-
+        <Link to={"/"}>
+            <LogoWithName />
+        </Link>
+        <Navigation location={location}/>
+        <NavigationBar location={location} />
     </StyledHeader>
   )
 }
 
-export default Header
+export default Header;
+

@@ -1,22 +1,28 @@
 import { Link } from "gatsby"
 import * as React from "react"
-import {ThemeProvider} from 'styled-components'
+import styled, {ThemeProvider} from 'styled-components'
 import Header from "../organisms/Header"
-import {GlobalStyle} from '../../theme/GlobalStyles'
+import {GlobalStyles} from '../../theme/GlobalStyles'
 import {darktheme} from '../../theme/theme'
 
+const Main = styled.main`
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    margin-top:20px;
+`
 
-const MainTemplate = ({children}) => {
-    console.log(darktheme)
+
+const MainTemplate = ({location, children}) => {
   return (
       <>
-        <GlobalStyle theme={darktheme}/>
+        <GlobalStyles theme={darktheme}/>
         <ThemeProvider theme={darktheme}>
-            <main>
-
-            <Header/>
-            {children}
-            </main>
+            <Header location={location}/>
+            <Main>
+                {children}
+            </Main>
         </ThemeProvider>
       </>
 

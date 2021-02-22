@@ -1,14 +1,17 @@
 import { Link } from "gatsby"
 import * as React from "react"
+import PageHead from "../components/atoms/PageHead"
+import AboutList from "../components/organisms/AboutList"
+import MainTemplate from "../components/templates/MainTemplate"
+import { aboutList } from "../constants/data"
 
 
-// markup
-const AboutPage = () => {
+const AboutPage = ({location}) => {
   return (
-    <main >
-     strona poboczna
-     <Link to={"/"}>Z powrotem</Link>
-    </main>
+    <MainTemplate location={location.pathname} >
+      <PageHead text={'ABOUT'} />
+      <AboutList list={aboutList} />
+    </MainTemplate>
   )
 }
 
