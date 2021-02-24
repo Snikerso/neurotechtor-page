@@ -1,6 +1,7 @@
 import  React, { useState } from "react"
 import styled from "styled-components"
 import Bar from "../atoms/Bar"
+import CloseButton from "../atoms/CloseButton"
 import NavItem from "../atoms/NavItem"
 
 
@@ -15,11 +16,11 @@ const NavPanel = styled.div`
     top:60px;
     border-bottom:2px solid white;
     background-color:${({theme})=>theme.first};
+
     @media only screen and (max-width: ${({ theme }) => theme.media700}) {
         display:flex;
     }
 
-    
 `
 const StyledWrapper = styled.nav`
     display:none;
@@ -52,7 +53,7 @@ const [isOpen, setIsOpen] = useState(false)
       <>
     <StyledWrapper>
 
-        <Bar onClick={()=>setIsOpen(prev =>!prev)}/> 
+        {isOpen ? <CloseButton onClick={()=>setIsOpen(prev =>!prev)}/>: <Bar onClick={()=>setIsOpen(prev =>!prev)}/> }
         
     </StyledWrapper>
     

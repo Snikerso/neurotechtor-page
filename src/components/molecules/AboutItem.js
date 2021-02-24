@@ -9,7 +9,9 @@ const StyledWrapper = styled.div`
     color:white;
     text-align:center;
     width:90%;
+
     margin-bottom:100px;
+
     svg{
         width:70%;
     }
@@ -17,6 +19,10 @@ const StyledWrapper = styled.div`
     > * {
         margin-bottom:70px;
     }
+    @media  (min-width: ${({ theme }) => theme.media700}) {
+        max-width:60%;
+    }
+
 
 `
 

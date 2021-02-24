@@ -4,15 +4,15 @@ import ProjectItem from '../molecules/ProjectItem'
 
 const StyledWrapper = styled.div`
     display:flex;
-    flex-direction:row;
-    flex-wrap:wrap;
+    flex-direction:column;
     align-items:center;
     justify-content:center;
 
   
 
     @media  (min-width: ${({ theme }) => theme.media700}) {
-        /* width:24%; */
+        flex-direction:row;
+        flex-wrap:wrap;
     }
 
 `

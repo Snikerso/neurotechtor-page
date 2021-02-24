@@ -4,6 +4,7 @@ import styled, {ThemeProvider} from 'styled-components'
 import Header from "../organisms/Header"
 import {GlobalStyles} from '../../theme/GlobalStyles'
 import {darktheme} from '../../theme/theme'
+import Footer from "../organisms/Footer"
 
 const Main = styled.main`
     display:flex;
@@ -25,6 +26,7 @@ const MainTemplate = ({location, children}) => {
             <Main>
                 {children}
             </Main>
+            <Footer/>
         </ThemeProvider>
       </>
 

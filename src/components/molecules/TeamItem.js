@@ -17,7 +17,12 @@ const StyledWrapper = styled.div`
     }
 
     @media  (min-width: ${({ theme }) => theme.media700}) {
+        width:46%;
+        margin:20px;
+    }
+    @media  (min-width: ${({ theme }) => theme.media1000}) {
         width:24%;
+        margin:20px;
     }
 
 `

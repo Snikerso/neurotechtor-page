@@ -6,19 +6,13 @@ import styled from 'styled-components'
 
 
 const StyledLink = styled(Link)`
-    /* position: absolute; */
- 
     align-self:flex-end;
     
     :hover{
         cursor: pointer;
     }
 `
-const StyledButton = styled.button`
-    /* position: absolute; */
-   
-    right:10px;
-    bottom:20px;
+const StyledButton = styled.button`   
     width:153px;
     height:41px;
     background: linear-gradient(137.97deg, #57E0F4 -39%, #7F9DF4 39.36%, #AE00BE 100.89%);

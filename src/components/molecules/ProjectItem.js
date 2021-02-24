@@ -10,8 +10,6 @@ const StyledWrapper = styled.div`
     position: relative;
     display:flex;
     flex-direction:column;
-    /* align-items:flex-start; */
-    /* justify-content:center; */
     color:white;
     width:280px;
     margin-bottom:100px;
@@ -24,6 +22,7 @@ const StyledWrapper = styled.div`
     
     @media  (min-width: ${({ theme }) => theme.media700}) {
         margin:50px 100px 100px 100px;
+        width:340px;
     }
 
     @media  (min-width: ${({ theme }) => theme.media1000}) {

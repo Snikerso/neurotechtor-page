@@ -4,6 +4,7 @@ import styled from 'styled-components'
 import LineGradient from './LineGradient'
 
 const StyledWrapper = styled.div`
+
     display:flex;
     flex-direction:column;
     align-items:center;
@@ -11,11 +12,9 @@ const StyledWrapper = styled.div`
     padding:10px;
     font-size:33px;
 
-
     svg{
-        width:70%;
+        width:100%;
     }
-
 
 `
 const StyledLink = styled(Link)`
