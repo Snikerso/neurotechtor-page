@@ -7,13 +7,14 @@ const StyledWrapper = styled.div`
     display:flex;
     flex-direction:column;
     align-items:center;
-
+    padding-top:100px;
+    padding-bottom:50px;
     .logo{
-        width:100px;
+        width:300px;
     }
     .logo-name{
-        width:130px;
-        margin-top:-30px;
+        width:300px;
+        margin-top:0px;
     }
 `
 

@@ -9,6 +9,8 @@ const StyledWrapper = styled.div`
     align-items:center;
     width:100px;
     padding:10px;
+    font-size:33px;
+
 
     svg{
         width:70%;
@@ -20,16 +22,17 @@ const StyledLink = styled(Link)`
     color:white;
     text-decoration:none;
     text-align:center;
+    font-family:nunito-regular;
 `
 
 const NavItem = ({to,text,id,location}) => {
-
+    
+let isActualLocation = location.substring(1) === to.substring(1)
 
     return (
         <StyledWrapper>
-            <StyledLink activeClassName="active" to={to}>{text}</StyledLink>
-            {location.substring(1) === to.substring(1) && <LineGradient id={id}/>}
-            
+            <StyledLink isActive={isActualLocation} to={to}>{text}</StyledLink>
+            {isActualLocation&& <LineGradient id={id}/>}
         </StyledWrapper>
     )
   }

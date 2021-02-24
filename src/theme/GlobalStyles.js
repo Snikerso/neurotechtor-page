@@ -1,8 +1,21 @@
 import { createGlobalStyle } from "styled-components"
-
+import NunitoRegular from '../assets/fonts/Nunito-Regular.ttf';
+import NunitoLight from '../assets/fonts/Nunito-Light.ttf';
+import SemiBold from '../assets/fonts/Nunito-SemiBold.ttf';
 
 export const GlobalStyles = createGlobalStyle`
-
+    @font-face {
+        font-family: 'nunito-regular';
+        src: url(${NunitoRegular});
+    }
+    @font-face {
+        font-family: 'nunito-light';
+        src: url(${NunitoLight});
+    }
+    @font-face {
+        font-family: 'nunito-semibold';
+        src: url(${SemiBold});
+    }
     
     *,*::before,*::after{
         box-sizing:border-box;
@@ -19,7 +32,3 @@ export const GlobalStyles = createGlobalStyle`
     `;
 
 
-/* @font-face {
-    font-family: 'virgo';
-    src: url(${Virgo});
-} */

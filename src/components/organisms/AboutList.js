@@ -1,17 +1,11 @@
 import React from 'react'
 import styled from 'styled-components'
 import AboutItem from '../molecules/AboutItem'
-import TeamItem from '../molecules/TeamItem'
 
 const StyledWrapper = styled.div`
     display:flex;
     flex-direction:column;
-
-
-    > * {
-        margin:50px;
-    }
-
+    align-items:center;
 `
 
 const AboutList = ({list}) => {

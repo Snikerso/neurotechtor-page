@@ -11,6 +11,6 @@ export const darktheme = {
     media1500: '',
     media1000: '1000px',
     media700: '700px',
+    media500: '500px',
     media300: '',
-    media500: '',
   };

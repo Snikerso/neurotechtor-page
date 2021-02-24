@@ -9,9 +9,7 @@ const StyledWrapper = styled.div`
     align-items:center;
     justify-content:center;
 
-    >*{
-        margin:50px;
-    }
+
 
 `
 
