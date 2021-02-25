@@ -6,20 +6,6 @@ module.exports = {
   plugins: [
     "gatsby-plugin-styled-components",
     {
-      resolve: `gatsby-plugin-facebook-customer-chat`,
-      options: {
-        sdk: {
-          appId: '332450868209542',
-          
-        },
-        chat: {
-          pageId: '111736127626645',
-          loggedInGreeting: 'Hi! How can I help you?',
-          loggedOutGreeting: 'Hi! How can I help you?',
-        }
-      },
-    },
-    {
       resolve: "gatsby-plugin-google-analytics",
       options: {
         trackingId: "260024080",
