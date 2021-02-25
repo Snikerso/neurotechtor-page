@@ -5,7 +5,6 @@ import Header from "../organisms/Header"
 import {GlobalStyles} from '../../theme/GlobalStyles'
 import {darktheme} from '../../theme/theme'
 import Footer from "../organisms/Footer"
-import MessengerChat from "../atoms/MessengerChat"
 
 const Main = styled.main`
     display:flex;
@@ -29,7 +28,6 @@ const MainTemplate = ({location, children}) => {
                 {children}
             </Main>
             
-            <MessengerChat/>
             <Footer/>
         </ThemeProvider>
       </>
