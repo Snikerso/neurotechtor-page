@@ -12,7 +12,7 @@ module.exports = {
         params: {
           fields: 'hours, posts { message, created_time }', // See Facebooks API to see what you can query for
         },
-        key: "EAAEuXLZCnp4YBAFNg2UByOqrSrMD5s1gcHfA20Yl1gZAgKZCVluCPURcSV1N0ZCB7xZAxVs24kSbPR3hXzyEBf7XU3u2ZAZB3QhxpAOyRpiN8NRM7LRJky62gHEOI2dtSH42x1J1oALH01ZCApZAXvAoK0zbsGbvjCZBq0pkgkhdEVKau3vDZCxRKrakVwZB34mpiayHUhZBSjZAwmJgZDZD", // You will need to create a Facebook application and go through review in order to get an API token.
+        key: "EAAEuXLZCnp4YBANjnEdMTMgzTOILx2maHum4BZCIJwGBjZATpZB3KoFdVZCZCZCpZBETbnswL8FKv9feqpZAayvljUZAtxM7hYVAlaIzAdRgObLgXHAQtzMHbTbV1OJjrEKmRaluxE0StVGnVoRnYgO1gyJtsNBt8IPExUqNwZC8pkrdd9s5bYMEHX6WnXydXAwIxq7e8zj9lB1sQZDZD", // You will need to create a Facebook application and go through review in order to get an API token.
         version: '10.0', // The version of the graph API to use. Defaults to 5.0
       },
     },
