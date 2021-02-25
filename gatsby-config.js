@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: "neurotechtor",
-    siteUrl:'https://neurotechtor.netlify.app'
+    siteUrl:'https://neurotechtor.com'
   },
   plugins: [
     "gatsby-plugin-styled-components",
