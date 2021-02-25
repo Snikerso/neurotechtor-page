@@ -5,7 +5,9 @@ export const teamList = [
     {id:4, src:"dr_tolpa", name:"Krzysztof Tołpa", description:" My scientific interests consist of neuroimaging methods, in particular EEG, methods of signal analysis, including Brain -Computer Interface technology and mechanisms of information processing by the brain." },
     {id:5, src:"wers", name:"Weronika Sójka", description:"Cognitive Science Student, Computational Neuroimaging Team Member, Neuroimaging Data Analysis." },
     {id:6, src:"zosia", name:"Zosia Piętka-Danilewicz", description:"Cognitive Science Student Computational Neuroimaging Team Neural Signal and Information Flow Analysis." },
-    {id:7, src:"snikers", name:"Paweł Drojecki", description:"I want to be the most powerful scientist like Dr. Stone. " },
+    {id:7, src:"kelayno", name:"Paweł Drojecki", description:"Cognitive science student. Interested in topics such as anxiety and mood disorders, eye-tracking, virtual reality, anthropology and neurotransmitters homeostasis." },
+    {id:8, src:"misterius", name:"Natalia Drojecki", description:"Neurobiologist focusing on perception of perspective and processing of speech; neurophysiology; automation." },
+    {id:9, src:"snikers", name:"Sławek", description:"I want to be the most powerful scientist like Dr. Stone. " },
   ]
 
   
@@ -22,7 +24,7 @@ export const projectList = [
       slug:"cognitive-enhancement",
       title:"Cognitive enhancement influences the perception of art", 
       authors:["Weronika Sójka"],
-      contributors: ["Krystian Dereziński, ", "Paweł Drojecki, ", "Kladia Zientek"],
+      contributors: ["Krystian Dereziński, ", "Paweł Drojecki, ", "Klaudia Zientek"],
       short_description:"Pilot study aiming to understand how visitors experience and memorize museum environments in condition to emotional stimulation prior to visiting the museum...",
       description:"Pilot study aiming to understand how visitors experience and memorize museum environments in condition to emotional stimulation prior to visiting the museum. In my study, I would like to study how relaxation training affects aesthetic judgements. For future investigation we can try to find out if we can increase possibilities of cognitive functionality thanks to specific emotional stimulation.",
       studydesign:"My research will consist of two stages. Firstable, I plan to analyze EEG signals of people exposed to the relaxation method I chose based on literature overview (Rodriguez et al., 2020). Since I have to make sure that a given type of relaxation produces the desired effect I want to achieve. Subsequently, I would have obtained a 360-degree video to be able to simulate a visit to the museum as realistically as possible thanks to the collaboration with the Museum of the Origins of the Polish State in Gniezno,. Using Virtual Reality and Eye-Tracking recordings, I would analyze the degree of immersion of the subject with art depending on the groups. Furthermore, subjects would be asked for a validation questionnaire consisting of questions regarding the assessment of the reception of specific elements of the exhibition and how well they were remembered just after the study and one week after remotely.",
