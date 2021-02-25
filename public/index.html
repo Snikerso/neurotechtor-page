@@ -87,41 +87,32 @@ data-styled.g29[id="pages__StyledWrapperInner-gk4c98-0"]{content:"eBQofd,"}/*!sc
 </style><link rel="preconnect" href="https://www.google-analytics.com"/><link rel="dns-prefetch" href="https://www.google-analytics.com"/><title data-react-helmet="true"></title><link rel="sitemap" type="application/xml" href="/sitemap.xml"/><link rel="icon" href="/favicon-32x32.png?v=53aa06cf17e4239d0dba6ffd09854e02" type="image/png"/><link rel="manifest" href="/manifest.webmanifest" crossorigin="anonymous"/><link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png?v=53aa06cf17e4239d0dba6ffd09854e02"/><link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png?v=53aa06cf17e4239d0dba6ffd09854e02"/><link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png?v=53aa06cf17e4239d0dba6ffd09854e02"/><link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png?v=53aa06cf17e4239d0dba6ffd09854e02"/><link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png?v=53aa06cf17e4239d0dba6ffd09854e02"/><link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png?v=53aa06cf17e4239d0dba6ffd09854e02"/><link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png?v=53aa06cf17e4239d0dba6ffd09854e02"/><link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png?v=53aa06cf17e4239d0dba6ffd09854e02"/><link as="script" rel="preload" href="/webpack-runtime-aead9abc0653403adf06.js"/><link as="script" rel="preload" href="/framework-beda7bde9d7dca0755ce.js"/><link as="script" rel="preload" href="/app-578b8541a50bdb4d0254.js"/><link as="script" rel="preload" href="/b809a3ed7d2faa3ca0a5c01372824272cb4510b9-d7bec639ab02e5c483d1.js"/><link as="script" rel="preload" href="/component---src-pages-index-js-36ca3c7f8745b1fc4e80.js"/><link as="fetch" rel="preload" href="/page-data\index\page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data\app-data.json" crossorigin="anonymous"/></head><body>
     
     
+
 <!-- Load Facebook SDK for JavaScript -->
-<div id="fb-root"></div>
+      <div id="fb-root"></div>
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v10.0'
+          });
+        };
+
+        (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+      </script>
+
+      <!-- Your Chat Plugin code -->
+      <div class="fb-customerchat"
+        attribution="install_email"
+        page_id="111736127626645">
+      </div>
 <script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      xfbml            : true,
-      version          : 'v10.0'
-    });
-  };
-
-  (function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-
-<!-- Your Chat Plugin code -->
-<div class="fb-customerchat"
-  attribution="install_email"
-  page_id="111736127626645">
-</div>
   
-  if(true) {
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-  }
-  if (typeof ga === "function") {
-    ga('create', '260024080', 'auto', {});
-      
-      
-      
-      
-      
-      }</script><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-818af64753e5306e538b.js"],"app":["/app-578b8541a50bdb4d0254.js"],"component---src-pages-404-js":["/component---src-pages-404-js-b8bd8e53558f07316d7c.js"],"component---src-pages-about-js":["/component---src-pages-about-js-b9dce3b2a457fc498109.js"],"component---src-pages-index-js":["/component---src-pages-index-js-36ca3c7f8745b1fc4e80.js"],"component---src-pages-project-cognitive-enhancement-js":["/component---src-pages-project-cognitive-enhancement-js-87ef7c4a781b6b9db483.js"],"component---src-pages-project-control-drone-using-eeg-js":["/component---src-pages-project-control-drone-using-eeg-js-9fcf6da11b79b25ad65b.js"],"component---src-pages-project-does-listening-js":["/component---src-pages-project-does-listening-js-4b5354461d9a49f0d588.js"],"component---src-pages-project-examination-of-approach-avoidance-conflict-js":["/component---src-pages-project-examination-of-approach-avoidance-conflict-js-22fe38043a9a5261187a.js"],"component---src-pages-project-influence-of-the-archery-training-js":["/component---src-pages-project-influence-of-the-archery-training-js-fb0b35a8b204054ecefa.js"],"component---src-pages-projects-js":["/component---src-pages-projects-js-8473493d5ba5ee515811.js"],"component---src-pages-team-js":["/component---src-pages-team-js-663aba1cf604e1c54792.js"]};/*]]>*/</script><script src="/polyfill-818af64753e5306e538b.js" nomodule=""></script><script src="/component---src-pages-index-js-36ca3c7f8745b1fc4e80.js" async=""></script><script src="/b809a3ed7d2faa3ca0a5c01372824272cb4510b9-d7bec639ab02e5c483d1.js" async=""></script><script src="/app-578b8541a50bdb4d0254.js" async=""></script><script src="/framework-beda7bde9d7dca0755ce.js" async=""></script><script src="/webpack-runtime-aead9abc0653403adf06.js" async=""></script></body></html>
+</script>
+<script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-818af64753e5306e538b.js"],"app":["/app-578b8541a50bdb4d0254.js"],"component---src-pages-404-js":["/component---src-pages-404-js-b8bd8e53558f07316d7c.js"],"component---src-pages-about-js":["/component---src-pages-about-js-b9dce3b2a457fc498109.js"],"component---src-pages-index-js":["/component---src-pages-index-js-36ca3c7f8745b1fc4e80.js"],"component---src-pages-project-cognitive-enhancement-js":["/component---src-pages-project-cognitive-enhancement-js-87ef7c4a781b6b9db483.js"],"component---src-pages-project-control-drone-using-eeg-js":["/component---src-pages-project-control-drone-using-eeg-js-9fcf6da11b79b25ad65b.js"],"component---src-pages-project-does-listening-js":["/component---src-pages-project-does-listening-js-4b5354461d9a49f0d588.js"],"component---src-pages-project-examination-of-approach-avoidance-conflict-js":["/component---src-pages-project-examination-of-approach-avoidance-conflict-js-22fe38043a9a5261187a.js"],"component---src-pages-project-influence-of-the-archery-training-js":["/component---src-pages-project-influence-of-the-archery-training-js-fb0b35a8b204054ecefa.js"],"component---src-pages-projects-js":["/component---src-pages-projects-js-8473493d5ba5ee515811.js"],"component---src-pages-team-js":["/component---src-pages-team-js-663aba1cf604e1c54792.js"]};/*]]>*/</script><script src="/polyfill-818af64753e5306e538b.js" nomodule=""></script><script src="/component---src-pages-index-js-36ca3c7f8745b1fc4e80.js" async=""></script><script src="/b809a3ed7d2faa3ca0a5c01372824272cb4510b9-d7bec639ab02e5c483d1.js" async=""></script><script src="/app-578b8541a50bdb4d0254.js" async=""></script><script src="/framework-beda7bde9d7dca0755ce.js" async=""></script><script src="/webpack-runtime-aead9abc0653403adf06.js" async=""></script></body></html>
