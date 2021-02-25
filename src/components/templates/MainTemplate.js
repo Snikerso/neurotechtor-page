@@ -1,3 +1,4 @@
+
 import * as React from "react"
 import styled, {ThemeProvider} from 'styled-components'
 import Header from "../organisms/Header"
@@ -27,7 +28,6 @@ const MainTemplate = ({location, children}) => {
                 {children}
             </Main>
             
-            {/* <MessengerChat/> */}
             <Footer/>
         </ThemeProvider>
       </>

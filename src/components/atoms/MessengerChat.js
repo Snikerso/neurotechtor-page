@@ -5,7 +5,7 @@ import React, {useEffect} from 'react';
 const facebookAppId = "111736127626645"
 
  function MessengerChat(){
-  useEffect(()=>{
+
     window.fbAsyncInit = function() {
       window.FB.init({
         xfbml            : true,
@@ -19,7 +19,7 @@ const facebookAppId = "111736127626645"
       js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));
-  })
+
   return(
     <>
       <div id="fb-root" />
