@@ -1,4 +1,7 @@
 import React, {useEffect} from 'react';
+
+
+
 const facebookAppId = "111736127626645"
 
  function MessengerChat(){
@@ -6,7 +9,7 @@ const facebookAppId = "111736127626645"
     window.fbAsyncInit = function() {
       window.FB.init({
         xfbml            : true,
-        version          : 'v10.0'
+        version          : 'v5.0'
       });
     };
     (function(d, s, id) {
