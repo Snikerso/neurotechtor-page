@@ -25,7 +25,7 @@ const StyledHead = styled.h3`
     color:white;
     text-decoration:none;
     font-family:nunito-semibold;
-    font-size:20px;
+    font-size:22px;
 
 `
 

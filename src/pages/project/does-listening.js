@@ -11,9 +11,6 @@ import MainTemplate from "../../components/templates/MainTemplate"
 import { projectList } from "../../constants/data"
 
 const CognitiveEnhancement = () => {
-
-
-
   const {title,authors,contributors,description,studydesign,background,research_questions} = projectList[2]
 
   return (

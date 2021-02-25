@@ -5,7 +5,7 @@ const StyledAuthors= styled.p`
     display:flex;
     font-family:nunito-light;
     font-weight:normal;
-    font-size: 12px;
+    font-size: 13px;
     color ${({theme})=>theme.white};
     
 `

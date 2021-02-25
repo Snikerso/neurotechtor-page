@@ -10,10 +10,10 @@ export const teamList = [
 
   
 export const aboutList = [
-    {id:0, src:"BALLS", text:"NeuroTechTOR is a club bringing together people interested in active participation in the development of neurotechnology in Poland. We are students, PhD students, researchers, lecturers, professionals and amateurs in fields such as cognitive science, psychology, computer science, biotechnology, physics, biology, mathematics, philosophy, arts ..."},
+    {id:0, src:"BALLS", text:"NeuroTechTOR is a club bringing together people interested in active participation in the development of neurotechnology in Poland. We are students, PhD students, researchers, lecturers, professionals and amateurs in fields such as cognitive science, psychology, computer science, biotechnology, physics, biology, mathematics, philosophy, arts..."},
     {id:1, src:"WAVE", text:"We use technologies such as BCI, EEG, fMRI, MEG, tDCS, TMS, ET and a number of advanced signal analysis methods such as machine learning,  artificial intelligence and others for computational neuroscience."},
     {id:2, src:"LIGHTBULB", text:"Our goal is to study the phenomenon and create solutions that allow to combine neurosciences, engineering, psychology, medicine, computer science and medicine in order to improve the quality of human life. We are interested in diagnosis, therapy and development of users of new solutions."},
-    {id:3, src:"EARTH", text:"We are an open group of us people from all over Poland, and not only Poland, and our beginning takes place in Toruń - the city of Nicolaus Copernicus, which, as they say, stopped the Sun and moved the Earth. We plan to move people's minds."},
+    {id:3, src:"EARTH", text:"We are an open group of people from all over Poland, and not only Poland, and our beginning takes place in Toruń - the city of Nicolaus Copernicus, which, as they say, stopped the Sun and moved the Earth. We plan to move people's minds."},
   ]
 
 export const projectList = [
@@ -74,7 +74,7 @@ export const projectList = [
       slug:"control-drone-using-eeg",
       title:"In search of new ways to control drone using EEG and machine learning", 
       authors:["Monika Lewandowska"],
-      contributors: ["Krystian Dereziński", "Krzysztof Tołpa"],
+      contributors: ["Krystian Dereziński, ", "Krzysztof Tołpa"],
       short_description:"This study aims to show that we can find new possibilities to create BCI methods for reading and analyzing EEG data to create predictions, triggers, and markers for setting the position of the drone in R3 space.",
       
       description:"This study aims to show that we can find new possibilities to create BCI methods for reading and analyzing EEG data to create predictions, triggers, and markers for setting the position of the drone in R3 space.",

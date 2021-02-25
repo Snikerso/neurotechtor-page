@@ -28,6 +28,7 @@ export const GlobalStyles = createGlobalStyle`
         background-color:${({theme}) =>theme.first};
         font-size:1.6rem;
         margin:0;    
+        overflow-x:hidden;
     }
     `;
 
