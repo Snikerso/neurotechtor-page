@@ -1,4 +1,4 @@
-
+import React from 'react';
 
 class MessengerChat extends React.Component {
     componentDidMount() {
