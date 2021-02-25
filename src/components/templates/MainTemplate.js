@@ -1,4 +1,4 @@
-import { Link } from "gatsby"
+import MessengerCustomerChat from 'react-messenger-customer-chat';
 import * as React from "react"
 import styled, {ThemeProvider} from 'styled-components'
 import Header from "../organisms/Header"
@@ -18,8 +18,15 @@ const Main = styled.main`
 
 
 const MainTemplate = ({location, children}) => {
+
   return (
       <>
+
+    <MessengerCustomerChat
+    pageId="111736127626645"
+    appId="___gatsby"
+    htmlRef="<REF_STRING>"
+  />,
         <GlobalStyles theme={darktheme}/>
         <ThemeProvider theme={darktheme}>
             <Header location={location}/>
