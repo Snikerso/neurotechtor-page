@@ -5,9 +5,9 @@ export const teamList = [
     {id:4, src:"dr_tolpa", name:"Krzysztof Tołpa", description:" My scientific interests consist of neuroimaging methods, in particular EEG, methods of signal analysis, including Brain -Computer Interface technology and mechanisms of information processing by the brain." },
     {id:5, src:"wers", name:"Weronika Sójka", description:"Cognitive Science Student, Computational Neuroimaging Team Member, Neuroimaging Data Analysis." },
     {id:6, src:"zosia", name:"Zosia Piętka-Danilewicz", description:"Cognitive Science Student Computational Neuroimaging Team Neural Signal and Information Flow Analysis." },
-    {id:7, src:"kelayno", name:"Paweł Drojecki", description:"Cognitive science student. Interested in topics such as anxiety and mood disorders, eye-tracking, virtual reality, anthropology and neurotransmitters homeostasis." },
-    {id:8, src:"misterius", name:"Natalia Drojecki", description:"Neurobiologist focusing on perception of perspective and processing of speech; neurophysiology; automation." },
-    {id:9, src:"snikers", name:"Sławek", description:"I want to be the most powerful scientist like Dr. Stone. " },
+    {id:7, src:"kelayno", name:"Natalia Pawłowska", description:"Cognitive science student. Interested in topics such as anxiety and mood disorders, eye-tracking, virtual reality, anthropology and neurotransmitters homeostasis." },
+    {id:8, src:"misterius", name:"Sławomir Duda", description:"Neurobiologist focusing on perception of perspective and processing of speech; neurophysiology; automation." },
+    {id:9, src:"snikers", name:"Paweł Drojecki", description:"I want to be the most powerful scientist like Dr. Stone. " },
   ]
 
   
