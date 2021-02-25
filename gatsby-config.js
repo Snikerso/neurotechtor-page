@@ -9,8 +9,8 @@ module.exports = {
       resolve: `gatsby-plugin-facebook-customer-chat`,
       options: {
         sdk: {
-          appId: '111736127626645',
-          ...
+          appId: '332450868209542',
+          
         },
         chat: {
           pageId: '111736127626645',
