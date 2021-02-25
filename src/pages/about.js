@@ -9,7 +9,7 @@ import { aboutList } from "../constants/data"
 const AboutPage = ({location}) => {
   return (
     <MainTemplate location={location.pathname} >
-      <PageHead text={'ABOUT'} />
+      <PageHead text={'About'} />
       <AboutList list={aboutList} />
     </MainTemplate>
   )

@@ -19,7 +19,7 @@ const StyledHead = styled.h2`
     text-decoration:none;
     text-align:center;
     font-family:nunito-semibold;
-    font-size:50px;
+    font-size:40px;
 
 `
 
@@ -33,5 +33,3 @@ const PageHead = ({text}) => {
   }
   
 export default PageHead
-
-

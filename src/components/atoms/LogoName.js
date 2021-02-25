@@ -2,6 +2,7 @@ import React from 'react'
 
 
 const LogoName = () => {
+    
     return (
 
         <svg className="logo-name" width="344" height="48" viewBox="0 0 344 48" fill="none" xmlns="http://www.w3.org/2000/svg">

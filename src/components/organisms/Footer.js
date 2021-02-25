@@ -1,8 +1,6 @@
-import { Link } from "gatsby"
 import React from "react"
 import styled from "styled-components"
 import FooterBalls from "../atoms/FooterBalls"
-import LogoWithName from "../molecules/LogoWithName"
 
 
 const StyledWrapper = styled.footer`

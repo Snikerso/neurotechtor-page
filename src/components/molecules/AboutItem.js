@@ -17,13 +17,11 @@ const StyledWrapper = styled.div`
     }
 
     > * {
-        margin-bottom:70px;
+        margin-bottom:50px;
     }
     @media  (min-width: ${({ theme }) => theme.media700}) {
         max-width:60%;
     }
-
-
 `
 
 
