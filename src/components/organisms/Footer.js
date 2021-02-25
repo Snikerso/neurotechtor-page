@@ -5,7 +5,7 @@ import FooterBalls from "../atoms/FooterBalls"
 
 const StyledWrapper = styled.footer`
     position: relative;
-
+    overflow:hidden;
     width:100vw;
     height:200px;
 

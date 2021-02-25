@@ -12,7 +12,6 @@ const Main = styled.main`
     align-items:center;
     justify-content:center;
     margin-top:40px;
-    overflow:hidden;
 
 `
 
