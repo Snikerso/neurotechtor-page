@@ -6,10 +6,9 @@ const StyledAuthors= styled.p`
     font-family:nunito-light;
     font-weight:normal;
     font-size: 13px;
-    color ${({theme})=>theme.white};
+    color:${({theme})=>theme.white};
     
-`
-
+`;
 const Authors = ({text, authors}) => {
 
     return (
